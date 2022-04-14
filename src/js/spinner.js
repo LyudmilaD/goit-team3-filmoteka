@@ -1,5 +1,5 @@
 const spinner = document.querySelector('#spinner');
-const searchButton = document.querySelector('#search-button');
+const searchButton = document.querySelector('#header__search-button');
 
 console.log('Spinner - ', spinner);
 console.log('Search button - ', searchButton);
