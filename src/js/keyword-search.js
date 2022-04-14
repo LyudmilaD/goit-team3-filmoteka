@@ -20,11 +20,12 @@ export async function entryKeyWords(event) {
     clearErrorField();
     const { elements: { input } } = event.currentTarget;
     const keyWord = input.value.trim();
-    if (keyWord === '') { 
-        textError.textContent = 'The input field is empty. Please enter a valid value';
-        searchForm.reset();
-        return;
+    if (keyWord === '') {
+      textError.textContent = 'The input field is empty. Please enter a valid value';
+      searchForm.reset();
+      return;
     }
+
         try {
             showSpinner();
             const films = await fetchFilmsByKeywords(keyWord);
