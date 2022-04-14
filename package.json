@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://KhelemeliaOleksii.github.io/GoIT-JS-Team3-project",
+  "homepage": "https://LyudmilaD.github.io/goit-team3-filmoteka/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /GoIT-JS-Team3-project/"
+    "build": "parcel build src/*.html --public-url /goit-team3-filmoteka/"
   },
   "repository": {
     "type": "git",
