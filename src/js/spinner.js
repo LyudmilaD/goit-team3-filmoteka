@@ -14,6 +14,11 @@ export function hideSpinner() {
   spinner.classList.add('invisible');
   spinner.classList.remove('visible');
 }
+export function hideSpinnerWithDelay() {
+  setTimeout(() => {
+    hideSpinner();
+  }, 3000);
+}
 
 function clickSearchButton() {
   showSpinner();
@@ -22,4 +27,4 @@ function clickSearchButton() {
   }, 3000);
 }
 
-searchButton.addEventListener('click', clickSearchButton);
+// searchButton.addEventListener('click', clickSearchButton);
