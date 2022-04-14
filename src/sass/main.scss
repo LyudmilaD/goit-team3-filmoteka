@@ -1,0 +1,20 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+// Стили для файла с примером HTML-фрагмента
+@import './base/reset';
+@import './base/common';
+@import './utils/variables';
+@import './utils/mixins';
+@import './layout/footer';
+@import './layout/header';
+@import './components/section';
+@import './components/container';
+@import './components/logo';
+@import './components/filmlist';
+@import './components/modal';
+@import './components/paginationButtons';
+@import './layout/modal';
+@import './components/spinner';
