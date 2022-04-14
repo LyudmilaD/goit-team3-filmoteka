@@ -20,7 +20,7 @@ export function hideSpinnerWithDelay() {
   }, 3000);
 }
 
-function clickSearchButton() {
+export function clickSearchButton() {
   showSpinner();
   setTimeout(() => {
     hideSpinner();

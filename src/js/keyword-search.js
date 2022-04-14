@@ -25,7 +25,6 @@ export async function entryKeyWords(event) {
       searchForm.reset();
       return;
     }
-
         try {
             showSpinner();
             const films = await fetchFilmsByKeywords(keyWord);
